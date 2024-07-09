@@ -1,6 +1,6 @@
 .navBar{
     background-color: #9da1aa!important;
-    padding: 1.2rem 0!important;
+    padding: 0.8rem 0 0.5rem!important;
     margin: 0.5rem;
     border-color: #cbcbcb #4e474e #4e474e #cbcbcb;
     border-style: solid;
@@ -9,4 +9,12 @@
 
 .navBar .Brand{
     color: blue!important;
+    width: 25vw;
+    font-size: 6vw;
+}
+
+.navBar .audio{
+    margin-left: 20vw;
+    margin-top: -0.8rem;
+    width: 18vw;
 }

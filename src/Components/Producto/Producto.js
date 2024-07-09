@@ -1,6 +1,7 @@
 import React from 'react';
 
 import IMGProducto from '../../IMG/Silver.webp';
+import Praise from '../../Assets/IMG/praise.gif';
 
 import './producto.css';
 
@@ -12,7 +13,8 @@ function Producto() {
             </div>
             <div>
                 <h1 className='titulo'>Silver Piedras</h1>
-            <p>El mejor producto</p>
+            <p>OH MY GOD QUÉ BUEN PRODUCTO</p>
+            <img src={Praise} className='praise' />
             </div>
         </section>
     );

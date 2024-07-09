@@ -6,6 +6,7 @@ import './appRouter.css';
 import Footer from '../Footer/Footer';
 import RandomGif from '../RandomGif/RandomGif';
 import Producto from '../Producto/Producto';
+import Institucional from '../Institucional/Institucional';
 
 function AppRouter() {
     return (
@@ -15,6 +16,7 @@ function AppRouter() {
             <main>
                 <Producto />
                 <RandomGif />
+                <Institucional />
             </main>
             <Footer />
             </BrowserRouter>
