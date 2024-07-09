@@ -1,0 +1,24 @@
+.randomGif{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+   background-color:rgb(231, 44, 44);
+    padding: 2rem 0;
+}
+
+.randomGif .titulo{
+    margin-bottom: 1rem;
+    font-weight: 900;
+    color: #0000ee;
+}
+
+.randomGif .boton{
+    border-color: #0000ee;
+    font-weight: 900;
+    text-decoration: underline blue;
+    width: 45vw;
+    height: 3rem;
+    background-color: #dddedf;
+    font-style: italic;
+}
