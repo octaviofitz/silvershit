@@ -5,15 +5,14 @@ import './institucional.css';
 function Institucional() {
     return (
         <section className='institucional'> 
-            <h5>También somos serios</h5>
+            <h5 className='titulo'>También somos serios</h5>
             <p>Y lo podemos demostrar ☝️</p>
-            <p>Haciendo click acá abajo</p>
            
-            <div style={{ width: '80%', height: 0, paddingBottom: '75%', position: 'relative' }}>
+          {/*   <div style={{ width: '80%', height: 0, paddingBottom: '75%', position: 'relative' }}>
       <iframe
         src="https://giphy.com/embed/z835RsRqQHOlC4rsBr"
-        width="100%"
-        height="100%"
+        width="50%"
+        height="50%"
         style={{ position: 'absolute' }}
         className="giphy-embed"
         allowFullScreen
@@ -23,9 +22,13 @@ function Institucional() {
         <a href="https://giphy.com/gifs/sesamestreet-sesame-street-cookie-monster-z835RsRqQHOlC4rsBr">
         </a>
       </p>
-    </div>
+    </div> */}
 
-    <img  src=''/>
+       
+        
+        <button>SERIEDAD</button>
+
+       
         </section>
     );
 }

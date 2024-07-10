@@ -27,7 +27,7 @@ function NavBar() {
           height="30"
           className="d-inline-block align-top shitSvg"
         />{' '}
-        <a className='Brand'>SILVER SHEET</a>
+        <a className='Brand'>SILVER SHIT</a>
       </div>
       <img src={Audio} className='audio' onClick={playSound}/>
     </Navbar.Brand>

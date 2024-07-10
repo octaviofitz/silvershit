@@ -17,8 +17,9 @@
     border-color: #0000ee;
     font-weight: 900;
     text-decoration: underline blue;
-    width: 45vw;
+    width: 65vw;
     height: 3rem;
     background-color: #dddedf;
     font-style: italic;
+    margin-bottom: 1.5rem;
 }
