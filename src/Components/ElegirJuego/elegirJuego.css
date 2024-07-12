@@ -1,0 +1,42 @@
+.elegirJuego{
+    margin: 2rem 0;
+}
+
+.elegirJuego .titulo{
+    text-align: center;
+    font-weight: 900;
+}
+
+.elegirJuego .containerGift{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1.75rem auto;
+    justify-content: center;
+}
+
+.elegirJuego .containerGift .img{
+    width: 30vw;
+    padding: 0 0.3rem;
+    cursor: pointer;
+}
+
+.elegirJuego .containerGift #img1:hover,
+.elegirJuego .containerGift #img2:hover,
+.elegirJuego .containerGift #img3:hover,
+.elegirJuego .containerGift #img4:hover,
+.elegirJuego .containerGift #img5:hover,
+.elegirJuego .containerGift #img6:hover,
+.elegirJuego .containerGift #img7:hover,
+.elegirJuego .containerGift #img8:hover,
+.elegirJuego .containerGift #img9:hover{
+    animation: rotate 6s linear infinite;
+}
+
+@keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }

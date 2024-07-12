@@ -7,6 +7,8 @@ import Footer from '../Footer/Footer';
 import RandomGif from '../RandomGif/RandomGif';
 import Producto from '../Producto/Producto';
 import Institucional from '../Institucional/Institucional';
+import LimpiezaPantalla from '../LimpiezaPantalla/LimpiezaPantalla';
+import ElegirJuego from '../ElegirJuego/ElegirJuego';
 
 function AppRouter() {
     return (
@@ -15,7 +17,9 @@ function AppRouter() {
             <NavBar />
             <main>
                 <Producto />
+                <ElegirJuego />
                 <RandomGif />
+                <LimpiezaPantalla />
                 <Institucional />
             </main>
             <Footer />
