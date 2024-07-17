@@ -1,5 +1,3 @@
-import Container from 'react-bootstrap/Container';
-import Navbar from 'react-bootstrap/Navbar';
 import useSound from 'use-sound';
 
 import ShitSVG from '../../IMG/shitSVG.svg';
@@ -15,8 +13,8 @@ function NavBar() {
   
   return (
 
-    <>
-      <Navbar className="navBar">
+    <div className='navBar'>
+      {/* <Navbar className="navBar">
   <Container>
     <Navbar.Brand href="#home" className="d-flex justify-content-between w-100">
       <div>
@@ -32,9 +30,18 @@ function NavBar() {
       <img src={Audio} className='audio' onClick={playSound}/>
     </Navbar.Brand>
   </Container>
-</Navbar>
+</Navbar> */}
 
-    </>
+        <div>
+          <img src={ShitSVG} className='img' />
+          <a className='brand'>SILVER SHIT</a>
+        </div>
+          <div>
+          <img src={Audio} className='audio' onClick={playSound} />
+
+          </div>
+
+    </div>
   );
 }
 

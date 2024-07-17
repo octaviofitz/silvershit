@@ -5,6 +5,7 @@
     border-color: #cbcbcb #4e474e #4e474e #cbcbcb;
     border-style: solid;
     border-width: 5px;
+    margin-top: 2rem;
 }
 
 .footer .titulo {
@@ -17,6 +18,11 @@
     color: blue;
     margin: 0.5rem 1rem;
     text-transform: uppercase;
+    cursor: pointer;
+}
+
+.footer .lista{
+    text-decoration: none;
 }
 
 .footer .lista{

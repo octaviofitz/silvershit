@@ -1,6 +1,7 @@
 import React from 'react';
 
 import './footer.css';
+import { Link } from 'react-router-dom';
 
 function Footer() {
     return (
@@ -9,7 +10,7 @@ function Footer() {
             <ul className='lista'>
                 <li className='enlaces'>Gatitos</li>
                 <li className='enlaces'>Tu GIF</li>
-                <li className='enlaces'>Sección3</li>
+                <Link to='https://www.tiktok.com/@silver.piedras' target='__blank'><li className='enlaces'>TIK TOK</li></Link>
                 <li className='enlaces'>Sección2</li>
                 <li className='enlaces'>Sección5</li>
             </ul>

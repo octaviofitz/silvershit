@@ -25,27 +25,27 @@ function RandonGif() {
         getNewGifs();
     }, []);
 
+    const getMessage = () => {
+        alert('De nada 👍');
+    };
 
-    const getMessage = () =>{
-        alert('De nada 👍')
-    }
- 
+    const handleGifClick = (event) => {
+        event.preventDefault(); // Prevenir acción por defecto
+        event.stopPropagation(); // Prevenir propagación
+    };
+
     return (
         <section className='randomGif'>
             <h3 className='titulo'>TE REGALAMOS UNOS GATITOS</h3>
             <div>
                 {gifs.map((gif) => (
-                    <div key={gif.id} style={{ width: '80vw', marginBottom: '20px' }}>
+                    <div key={gif.id} style={{ width: '80vw', marginBottom: '20px' }} onClick={handleGifClick}>
                         <Gif gif={gif} width={window.innerWidth * 0.8} />
                     </div>
                 ))}
             </div>
             <button onClick={getMessage} className='boton'>ME GUSTARON. GRACIAS</button>
             <button onClick={getNewGifs} className='boton'>QUIERO OTROS</button>
-
-
-         {/*    <div style="width:100%;height:0;padding-bottom:75%;position:relative;"><iframe src="https://giphy.com/embed/Rz9wM2XlX2eP2Zm3HY" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/sesamestreet-sesame-street-cookie-monster-Rz9wM2XlX2eP2Zm3HY">via GIPHY</a></p> */}
-
         </section>
     );
 }

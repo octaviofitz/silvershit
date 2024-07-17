@@ -1,20 +1,27 @@
 .navBar{
     background-color: #9da1aa!important;
-    padding: 0.8rem 0 0.5rem!important;
+    padding: 0.8rem 1rem 0.5rem!important;
     margin: 0.5rem;
     border-color: #cbcbcb #4e474e #4e474e #cbcbcb;
     border-style: solid;
     border-width: 5px;
+    display: flex;
+    justify-content: space-between;
 }
 
-.navBar .Brand{
-    color: blue!important;
-    width: 25vw;
-    font-size: 6vw;
+.navBar .img{
+    width: 13vw;
+}
+
+.navBar .brand{
+    color: blue;
+    font-size: 5vw;
+    padding-left: 0.5rem;
+    padding-top: 0.5rem;
+    font-weight: 900;
 }
 
 .navBar .audio{
-    margin-left: 20vw;
-    margin-top: -0.8rem;
-    width: 18vw;
+    margin-top: -0.7vh;
+    width: 16vw;
 }
