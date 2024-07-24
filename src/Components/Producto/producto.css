@@ -20,3 +20,10 @@
 .producto .praise{
     width: 40vw;
 }
+
+
+@media (min-width: 1024px){
+    .producto {
+        width: 80vw;
+    }
+}

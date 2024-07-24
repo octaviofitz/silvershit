@@ -10,9 +10,11 @@ import Institucional from '../Institucional/Institucional';
 import LimpiezaPantalla from '../LimpiezaPantalla/LimpiezaPantalla';
 import ElegirJuego from '../ElegirJuego/ElegirJuego';
 
+import './appRouter.css';
+
 function AppRouter() {
     return (
-        <div>
+        <div className='app'>
             <BrowserRouter>
             <NavBar />
             <main>

@@ -25,3 +25,24 @@
     margin-top: -0.7vh;
     width: 16vw;
 }
+
+@media (min-width: 1024px){
+    .navBar{
+        margin: 3rem;
+        width: 50vw;
+    }
+    
+    .navBar .brand{
+        font-size: 3vw;
+        margin-left: 1rem;
+    }
+
+    .navBar .img{
+        width: 4vw;
+        margin-top: -1.25rem;
+    }
+
+    .navBar .audio{
+        width: 5.5vw;
+    }
+}
