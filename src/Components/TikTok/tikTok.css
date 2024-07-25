@@ -1,0 +1,13 @@
+.tiktok .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.tiktok .titulo{
+    color: black;
+    font-style: normal;
+    text-decoration: none;
+    margin-top: 1.5rem;
+}

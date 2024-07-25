@@ -6,9 +6,9 @@ import './appRouter.css';
 import Footer from '../Footer/Footer';
 import RandomGif from '../RandomGif/RandomGif';
 import Producto from '../Producto/Producto';
-import Institucional from '../Institucional/Institucional';
 import LimpiezaPantalla from '../LimpiezaPantalla/LimpiezaPantalla';
 import ElegirJuego from '../ElegirJuego/ElegirJuego';
+import Redes from '../../Pages/Redes';
 
 import './appRouter.css';
 
@@ -22,7 +22,7 @@ function AppRouter() {
                 <ElegirJuego />
                 <RandomGif />
                 <LimpiezaPantalla />
-                <Institucional />
+                <Redes />
             </main>
             <Footer />
             </BrowserRouter>

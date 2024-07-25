@@ -1,16 +1,48 @@
 .institucional{
     display: flex;
     flex-direction: column;
-    margin: auto;
+    margin: 2rem auto -4rem;
     align-items: center;
     justify-content: center;
     padding: 2rem 0 0;
 }
 
+.institucional .titulo{
+    color: blue;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 2rem;
+}
+
+.institucional .subtitulo{
+    color: blue;
+    font-weight: 700;
+    font-size: 1.35rem;
+    text-decoration: underline;
+}
+
 .institucional .container{
     display: flex;
-    flex-direction: row;
     width: 100vw;
     flex-wrap: nowrap;
-    align-items: flex-start;
+    align-items: center;
+    margin: auto;
+    margin-top: -5rem;
+    padding: 1rem;
+}
+
+.institucional .boton{
+    border-color: blue;
+    font-weight: 900;
+    text-decoration: underline;
+    font-style: italic;
+    color: black;
+}
+
+.institucional .gif:first-child{
+    margin-right: 1rem;
+}
+
+.institucional .gif:last-child{
+    margin-left: 1rem;
 }

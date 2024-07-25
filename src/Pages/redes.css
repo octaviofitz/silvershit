@@ -1,0 +1,11 @@
+.redes{
+    padding: 2rem 0;
+}
+
+.redes .titulo{
+    text-align: center;
+    color: blue;
+    font-weight: 900;
+    text-decoration: underline;
+    font-style: italic;
+}
