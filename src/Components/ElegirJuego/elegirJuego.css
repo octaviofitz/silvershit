@@ -9,7 +9,6 @@
 }
 
 
-
 .elegirJuego .titulo{
     text-align: center;
     font-weight: 900;
@@ -32,8 +31,8 @@
 }
 
 .elegirJuego .containerGift .img{
-    width: 28vw;
-    padding: 0 0.3rem;
+    width: 28.25vw;
+    padding: 0 0.1rem;
     cursor: pointer;
 }
 

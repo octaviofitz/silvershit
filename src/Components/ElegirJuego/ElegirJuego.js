@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Gift from '../../Assets/IMG/gift.svg';
+import Gift from '../../Assets/IMG/litter.png';
 import './elegirJuego.css';
 
 function ElegirJuego() {

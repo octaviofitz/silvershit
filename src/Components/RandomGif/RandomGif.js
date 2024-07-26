@@ -35,7 +35,7 @@ function RandonGif() {
     };
 
     return (
-        <section className='randomGif'>
+        <section className='randomGif' id='gif'>
             <h3 className='titulo'>TE REGALAMOS UNOS GATITOS</h3>
             <div>
                 {gifs.map((gif) => (

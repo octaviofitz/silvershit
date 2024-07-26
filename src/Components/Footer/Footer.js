@@ -9,7 +9,7 @@ function Footer() {
             <h5 className='titulo'>SILVER SHIT</h5>
             <ul className='lista'>
                 <li className='enlaces'>Gatitos</li>
-                <li className='enlaces'>Tu GIF</li>
+                <Link to='#gif'><li className='enlaces'>TU GIF</li></Link>
                 <Link to='https://www.tiktok.com/@silver.piedras' target='__blank'><li className='enlaces'>TIK TOK</li></Link>
                 <li className='enlaces'>Sección2</li>
                 <li className='enlaces'>Sección5</li>
