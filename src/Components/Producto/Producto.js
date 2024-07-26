@@ -7,7 +7,7 @@ import './producto.css';
 
 function Producto() {
     return (
-        <section className='producto'>
+        <section className='producto' id='producto'>
            <div>
             <img src={IMGProducto} className='img' alt='Silver Piedras' />
             </div>

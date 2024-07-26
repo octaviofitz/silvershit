@@ -31,6 +31,10 @@
     margin: 0.5rem auto;
 }
 
+.footer a{
+    text-decoration: none;
+}
+
 @media(min-width: 1024px){
     .footer {
         width: 50vw;

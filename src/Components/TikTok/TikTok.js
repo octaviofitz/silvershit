@@ -18,7 +18,7 @@ function TikTok() {
     return (
         <article className='tiktok'>
 
-            <h4 className='titulo'>Podés encontrarnos en Tik Tok</h4>
+            <h4 className='titulo'>Podés encontrarnos en <strong>Tik Tok</strong></h4>
 
             <div className='container'>
 

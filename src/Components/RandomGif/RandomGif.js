@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import { Gif } from '@giphy/react-components';
 import { GiphyFetch } from '@giphy/js-fetch-api';
 
@@ -16,9 +16,13 @@ const fetchGifs = async () => {
 
 function RandonGif() {
     const [gifs, setGifs] = useState([]);
+    const topRef = useRef(null);
 
     const getNewGifs = () => {
         fetchGifs().then(setGifs);
+        if (topRef.current) {
+            topRef.current.scrollIntoView({ behavior: 'smooth' });
+        }
     };
 
     useEffect(() => {
@@ -35,7 +39,7 @@ function RandonGif() {
     };
 
     return (
-        <section className='randomGif' id='gif'>
+        <section className='randomGif' id='gif' ref={topRef}>
             <h3 className='titulo'>TE REGALAMOS UNOS GATITOS</h3>
             <div>
                 {gifs.map((gif) => (
