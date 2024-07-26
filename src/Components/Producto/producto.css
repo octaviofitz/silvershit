@@ -2,13 +2,20 @@
     display: flex;
     margin: auto;
     align-items: center;
-    margin-top: 2rem;
-    padding: 1.5rem 0; 
+    padding: 2.5rem 0; 
     color: aliceblue;
     font-weight: 900;
+   background-color: blue;
+
 }
 
 .producto .titulo{
+    font-weight: 900;
+    color: black;
+}
+
+.producto p{
+    color: black;
     font-weight: 900;
 }
 

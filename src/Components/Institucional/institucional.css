@@ -8,15 +8,13 @@
 }
 
 .institucional .titulo{
-    color: blue;
     font-weight: 900;
     font-style: italic;
     font-size: 2rem;
 }
 
 .institucional .subtitulo{
-    color: blue;
-    font-weight: 700;
+    font-weight: 900;
     font-size: 1.35rem;
     text-decoration: underline;
 }

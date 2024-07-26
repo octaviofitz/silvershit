@@ -1,7 +1,7 @@
 .redes{
     padding: 0;
     background-image: 
-        linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), /* Ajusta la opacidad aquí */
+        linear-gradient(rgba(255, 255, 255, 0.677), rgba(255, 255, 255, 0.627)), /* Ajusta la opacidad aquí */
         url('../Assets/IMG/redesbackground.png');
     background-size: 50px 50px; /* Aumenta el tamaño de la imagen para crear el espacio */
     background-repeat: repeat; /* Hace que la imagen se repita */
@@ -10,7 +10,7 @@
 
 .redes .titulo{
     text-align: center;
-    color: blue;
+    color: black;
     font-weight: 900;
     text-decoration: underline;
     font-style: italic;
