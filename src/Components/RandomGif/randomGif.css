@@ -1,25 +1,37 @@
-.randomGif{
+.randomGif {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
     align-items: center;
-   background-color: black;
+    background-color: black;
     padding: 2rem 0;
     background-image: 
-    linear-gradient(rgba(255, 255, 255, 0.084), rgba(255, 255, 255, 0.089)), /* Ajusta la opacidad aquí */
-    url('../../Assets/IMG/star.gif');
-background-size: 25px 25px; /* Aumenta el tamaño de la imagen para crear el espacio */
-background-repeat: repeat; /* Hace que la imagen se repita */
-background-position: 0 0; /* Asegura que la repetición comience desde la esquina superior izquierda */
+        linear-gradient(rgba(255, 255, 255, 0.451), rgba(255, 255, 255, 0.347)), 
+        url('../../Assets/IMG/pizza.png');
+    background-size: 150px 150px;
+    background-repeat: repeat;
+    background-position: 0 0;
 }
 
-.randomGif .titulo{
+.randomGif .titulo {
     margin-bottom: 1rem;
     font-weight: 900;
     color: #0000ee;
+    text-align: center;
 }
 
-.randomGif .boton{
+.randomGif .hUqCFc{
+    margin-bottom: 2rem;
+}
+
+.randomGif .contenedorBotones{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2rem 0 0 0;
+}
+
+.randomGif .boton {
     border-color: #0000ee;
     font-weight: 900;
     text-decoration: underline blue;
@@ -28,4 +40,42 @@ background-position: 0 0; /* Asegura que la repetición comience desde la esquin
     background-color: #dddedf;
     font-style: italic;
     margin-bottom: 1.5rem;
+}
+
+@media (min-width: 1024px) {
+    .randomGif{
+        padding: 8vh;
+    }
+
+    .randomGif .titulo {
+        font-size: 5vh;
+        margin-bottom: 15vh;
+    }
+    
+    .randomGif .prueba {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .randomGif .gifContainer {
+        width: 20vw;
+    }
+
+    .randomGif .hUqCFc{
+        margin-bottom: 0rem;
+    }
+    
+
+    .randomGif .contenedorBotones {
+        display: flex;
+        flex-direction: row;
+        margin: 3rem auto 0;
+    }
+
+    .randomGif .contenedorBotones .boton {
+        width: 25vw;
+        margin: 2rem;
+    }
 }

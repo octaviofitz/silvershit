@@ -11,8 +11,8 @@ function Footer() {
                 <li className='enlaces'><Link activeClass='active' to='producto' smooth={true} duration={1200}>PRODUCTO</Link></li>
                 <li className='enlaces'><Link activeClass='active' to='juego' smooth={true} duration={1200}>JUEGO</Link></li>
                 <li className='enlaces'><Link activeClass='active' to='gif' smooth={true} duration={1200}>TU GIF</Link></li>
-                <li className='enlaces'><Link activeClass='active' to='https://www.tiktok.com/@silver.piedras' target='__blank'>TIK TOK</Link></li>
-                <li className='enlaces'><Link activeClass='active' to='https://silverpiedras.com.ar/' target='__blank'>INSTITUCIONAL</Link></li>
+                <li className='enlaces'><a href='https://www.tiktok.com/@silver.piedras' target='__blank'>TIK TOK</a></li>
+                <li className='enlaces'><a href='https://silverpiedras.com.ar' target='__blank'>INSTITUCIONAL</a></li>
             </ul>
         </div>
     );

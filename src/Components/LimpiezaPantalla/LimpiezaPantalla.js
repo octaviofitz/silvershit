@@ -1,18 +1,23 @@
 import React, { useRef, useEffect } from 'react';
 import Limpieza from '../../Assets/Video/Limpieza.mp4';
 
+import './limpiezaPantalla.css';
+
 function LimpiezaPantalla() {
     const videoRef = useRef(null);
 
     useEffect(() => {
         const video = videoRef.current;
+        let isPlaying = false;
 
-        const handlePlay = (entries, observer) => {
+        const handlePlay = (entries) => {
             entries.forEach(entry => {
-                if (entry.isIntersecting) {
+                if (entry.isIntersecting && !isPlaying) {
                     video.play();
-                } else {
+                    isPlaying = true;
+                } else if (!entry.isIntersecting && isPlaying) {
                     video.pause();
+                    isPlaying = false;
                 }
             });
         };
@@ -31,7 +36,7 @@ function LimpiezaPantalla() {
     }, []);
 
     return (
-        <section>
+        <section className='limpieza'>
            <video ref={videoRef} width="100%" controls loop muted>
             <source src={Limpieza} type='video/mp4'></source>
            </video>

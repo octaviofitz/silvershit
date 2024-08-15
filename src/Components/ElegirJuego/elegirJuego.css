@@ -8,7 +8,6 @@
     padding: 2rem 0;
 }
 
-
 .elegirJuego .titulo{
     text-align: center;
     font-weight: 900;
@@ -56,3 +55,32 @@
       transform: rotate(360deg);
     }
   }
+
+
+@media (min-width: 1024px){
+
+    .elegirJuego {
+        padding: 2rem 0;
+    }
+    
+    .elegirJuego .titulo{
+        font-size: 4vw;
+        padding: 2rem;
+    }
+    
+    .elegirJuego .containerGift{
+        margin: 1.75rem auto;
+        padding: 1rem 0;
+        width: 60vw;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    .elegirJuego .containerGift .img{
+        width: 10vw;
+        padding: 0 0.1rem;
+        margin: 0 3rem;
+    }
+
+}

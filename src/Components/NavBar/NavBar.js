@@ -2,7 +2,7 @@ import useSound from 'use-sound';
 
 import ShitSVG from '../../IMG/shitSVG.svg';
 import Audio from '../../IMG/audio.png';
-import PedroPedro from '../../Assets/Audio/PedroPedro.mp3';
+import PedroPedro from '../../Assets/Audio/Audio.mp3';
 
 import './navBar.css';
 

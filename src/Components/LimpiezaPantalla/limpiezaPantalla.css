@@ -1,0 +1,11 @@
+@media (min-width: 1024px){
+    .limpieza{
+        width: 50vw;
+        display: flex;
+        margin: auto;
+        margin-top: 3rem;
+        padding-bottom: 5rem;
+        height: 75vh;
+    }
+}
+

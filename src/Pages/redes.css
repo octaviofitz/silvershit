@@ -16,3 +16,15 @@
     font-style: italic;
     padding: 2.5rem 0 0 0;
 }
+
+@media (min-width: 1024px){
+    
+    .redes .titulo{
+        padding-top: 3rem;
+        font-size: 4rem;
+    }
+
+    .redes{
+        padding-bottom: -30rem;
+    }
+}

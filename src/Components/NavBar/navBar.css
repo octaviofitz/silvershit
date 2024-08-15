@@ -18,17 +18,20 @@
     padding-left: 0.5rem;
     padding-top: 0.5rem;
     font-weight: 900;
+    cursor: pointer;
 }
 
 .navBar .audio{
     margin-top: -0.7vh;
     width: 16vw;
+    cursor: pointer;
 }
 
 @media (min-width: 1024px){
     .navBar{
         margin: 3rem;
         width: 50vw;
+        margin-bottom: 3.5rem;
     }
     
     .navBar .brand{

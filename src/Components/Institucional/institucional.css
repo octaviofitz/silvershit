@@ -5,6 +5,8 @@
     align-items: center;
     justify-content: center;
     padding: -2rem 0 0;
+    overflow-y: auto;
+    max-height: 100vh;
 }
 
 .institucional .titulo{
@@ -39,8 +41,56 @@
 
 .institucional .gif:first-child{
     margin-right: 1rem;
+    pointer-events: none;
 }
 
 .institucional .gif:last-child{
     margin-left: 1rem;
+    pointer-events: none;
+}
+
+@media (min-width: 1024px){
+
+    .institucional{
+        display: flex;
+        flex-direction: column;
+        margin: 2rem auto -4rem;
+        align-items: center;
+        justify-content: center;
+        padding: -2rem 0 -2rem;
+    }
+    
+    .institucional .titulo{
+        font-size: 3.5rem;
+    }
+    
+    .institucional .subtitulo{
+        font-size: 2rem;
+    }
+    
+    .institucional .container{
+        display: flex;
+        width: 100vw;
+        flex-wrap: nowrap;
+        align-items: center;
+        margin: auto;
+        margin-top: -18rem;
+        padding: 1rem;
+        margin-bottom: -12rem;
+    }
+    
+    .institucional .boton{
+        border-color: blue;
+        font-weight: 900;
+        text-decoration: underline;
+        font-style: italic;
+        color: black;
+        padding: 2vh 6vw;
+    }
+
+    .institucional .giphy-embed{
+        width: 20vw;
+        margin-left: 5rem;
+    }
+
 }

@@ -13,7 +13,6 @@ background-color: black;
 @media (min-width:1024px){
 
     .app{
-        width: 50vw;
         display: flex;
         flex-direction: column;
         margin: auto;

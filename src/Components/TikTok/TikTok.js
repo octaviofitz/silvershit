@@ -26,7 +26,7 @@ function TikTok() {
       className="tiktok-embed"
       cite="https://www.tiktok.com/@silver.piedras/video/7382617371556547845"
       data-video-id="7382617371556547845"
-      style={{ maxWidth: '605px', minWidth: '325px' }}
+      style={{ maxWidth: '330px', minWidth: '325px' }}
     >
       <section>
         <a

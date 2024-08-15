@@ -11,11 +11,11 @@
 
 .producto .titulo{
     font-weight: 900;
-    color: black;
+    color: white;
 }
 
 .producto p{
-    color: black;
+    color: white;
     font-weight: 900;
 }
 
@@ -30,6 +30,24 @@
 
 @media (min-width: 1024px){
     .producto {
-        width: 80vw;
+        width: 88vw;
+        padding: 12vh 0;
+        justify-content: space-around;
+    }
+
+    .producto .titulo{
+        font-size: 5rem;
+    }
+    
+    .producto p{
+        font-size: 1.75rem;
+    }
+    
+    .producto .img{
+        width: 37vw;
+    }
+    
+    .producto .praise{
+        width: 28vw;
     }
 }
